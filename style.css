@@ -1,0 +1,111 @@
+@import url(util.css);
+/* Css file for Home Page */
+/* Utility classes ends here */
+/* Nav bar styling starts here */
+.nav{
+    position: fixed;
+    height: 70px;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 1px #212121;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.logo{
+    width: 70px;    
+    border-radius: 5px;
+}
+.logo img{
+   width: 100%;
+}
+.search-bar {
+    border-radius: 4px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 0.3px black;
+}
+.search-bar input {
+   min-width: 80%;
+   border: 1px solid #ffffff7e;
+   background-color:#fff;
+   font-family: var(--body-font);
+   padding:6px 8px;
+   font-size: 1.1rem;
+   letter-spacing: 0.76px;
+}
+.search-logo{
+    padding: 4px 8px;
+    font-family: var(--body-font);
+    cursor: pointer;
+    background-color: var(--off-white);
+    background-color: #212121;
+    color: #fff;
+    font-size: 1.3rem;
+
+}
+.nav-items{
+    justify-content: start;
+    font-size: 1.3rem;
+    column-gap: 25px;
+    align-items: center;
+}
+
+/* home page body Style  */
+.card-container{
+    width: 100%;    
+    background:linear-gradient(to bottom ,#f9f4f4 , #ebd9d9 , #f9f4f4) ;
+}
+.card-box{
+    border-radius: 4px;
+    margin-block: 110px 40px;
+    column-gap: 30px;
+    overflow: auto;
+    padding: 40px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    box-shadow: 0px 0px 1px var(--perma-black);
+    padding: 4px;
+    width: 430px;
+    height: 250px;
+    border-radius: 4px;
+    border:1px solid black;
+    background-color: #fff;
+}
+.card:hover {
+    transform:scale(1.03)  skew(1deg);
+    transition: transform 0.3s ease-out;
+    box-shadow: 0px 0px 4px var(--perma-black);
+
+}
+.card-img{
+    width: 400px;
+    height: 170px;
+}
+.card-content{
+    padding-block: 8px;
+    text-align: center;
+}
+.card-content p{
+    margin: 4px;
+}
+/* footer Stylesheet */
+.footer{
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: #212121;
+    color: white;
+    padding: 30px 40px 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.ft-box{
+    font-family: var(--body-font);
+    font-size: 1.12rem;
+    row-gap: 16px;
+}

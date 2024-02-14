@@ -1,0 +1,56 @@
+/* Here this css file is created to provide the basic utility styling to all the other pages  */
+/* It is the top style sheet accessible everyWhere */
+@import url("https://fonts.googleapis.com/css2?family=Nimbus+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-font:"Nimbus Sans" , sans-serif;
+    /* --heading-font:'Lora',sans-serif; */
+    --heading-font:'Poppins', sans-serif;
+    --third-font:'Open Sans', sans-serif;
+    --roboto:'Roboto' ,sans-serif;
+    --off-white:#edf2f4;
+    --off-black:#625d5d;
+    --orange:#ff8300;
+    --primary-color:#c77dff;
+    --primary-color-dark:#9d4edd;
+    --black_tht_white:#121212;
+    --text-black:#351c48;
+    --perma-white:#fff;
+    --perma-black:#090909;
+}
+/* Utility classes starts here */
+body{
+    font-family: var(--body-font);
+}
+.flex{
+    display: flex;
+}
+.centralize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.simple-list{
+    list-style-type: none;
+}
+td{
+    border: 1px solid rgb(76, 76, 76);
+    padding: 6px 4px;
+}
