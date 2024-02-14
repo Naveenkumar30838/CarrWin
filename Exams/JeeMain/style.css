@@ -1,0 +1,79 @@
+@import url(/carrOps/util.css);
+/* Here are some of the utility classes required for this page only */
+:root{
+    --dark-text:#333333;
+    --white-back:#fff;
+}
+/* utility ended here */
+.banner{
+    top: 0;
+    left: 0;
+    right: 0px;
+    width: 100vw;
+    height: 40vh;
+    justify-content: center;
+    color: white;
+    background-color: var(--primary-color-dark);
+}
+body{
+    background-color: var(--off-white);
+}
+h2{
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-size: 1.6em;
+    color: var(--black_tht_white);
+    
+}
+.content div{
+    padding: 20px;
+    background-color: var(--white-back);
+    margin: 5px 0px;
+}
+/* styling starts from here */
+
+.container{
+    column-gap: 10px;
+    padding: 20px;
+   
+}
+.tab-of-content{
+    margin-top: 5px;
+    width: 20%;
+    position: sticky;
+    background-color: var(--off-black);
+    border: 1px solid var(--dark-text);
+    top: 10px;
+    left: 0px;
+    height: 50vh;
+    overflow: auto;
+    line-height: 24px;
+    text-shadow: 0px 0px 10px black;
+    padding: 20px 0px 20px 20px;
+    box-shadow: 0px 0px 4px var(--black_tht_white);
+}
+.tab-of-content a{
+    color: var(--primary-color);
+}
+.content{
+   width: fit-content;
+}
+section div p{
+    line-height: 22px;
+    font-family: var(--heading-font);
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+/* styling the table */
+.two_by_2_table {
+   margin: 20px 5px ;
+}
+.two_by_2_table th{
+    background-color: var(--primary-color-dark);
+    color: var(--perma-white);
+}
+.two_by_2_table td ,th{
+    border: 1px solid black;
+    padding: 10px;
+}
