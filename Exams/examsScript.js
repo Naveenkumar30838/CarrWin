@@ -21,7 +21,7 @@ const aftrRdMore =document.getElementById('aftrRdMore')
 
     // for x banner 
     const navContainer=document.createElement('div')
-    navContainer.innerHTML="<li> <a href=/>Home</li>  <li> <a href=../>All Exams</li>";
+    navContainer.innerHTML="<li> <a href=../../>Home</li>  <li> <a href=../>All Exams</li>";
     navContainer.classList.add('topnav')
     navContainer.classList.add('row')
     navContainer.querySelectorAll('li').forEach(e=>{
