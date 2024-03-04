@@ -19,7 +19,7 @@ const aftrRdMore =document.getElementById('aftrRdMore')
     document.head.appendChild(favLink)
     const nav=document.getElementById('nav')
 
-    // for x banner 
+    // for  banner 
     const navContainer=document.createElement('div')
     navContainer.innerHTML="<li> <a href=../../>Home</li>  <li> <a href=../>All Exams</li>";
     navContainer.classList.add('topnav')
@@ -33,3 +33,4 @@ const aftrRdMore =document.getElementById('aftrRdMore')
     // appending the footer to each page of exam section 
     const footer = '<div class="footer row"><div class="foot-zero"><h2><i>CARREINE</i></h2></div><div class="ft-box column"><li class="simple-list">About Us</li><li class="simple-list">Career</li><li class="simple-list">Why Carreine</li><li class="simple-list">Contact Us</li><li class="simple-list">Plans</li></div><div class="ft-box column"><li class="simple-list">Youtube</li><li class="simple-list">LinkedIn</li><li class="simple-list">WhatsApp</li><li class="simple-list">X</li></div><div class="ft-box column"><li class="simple-list">LogIn</li><li class="simple-list">YourExams</li><li class="simple-list">New Update</li><li class="simple-list">Your Profile</li></div></div>';
     document.body.innerHTML+=footer;
+

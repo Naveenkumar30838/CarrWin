@@ -165,13 +165,14 @@ body{
 }
 .content-box{
     background-color: #dee3fe;
-    padding: 8px 12px;
+    padding: 12px 16px;
     border-radius: 4px;
 }
 .content-body p{
     font-family: var(--heading-font);
     font-size:15px;
     line-height: 28px;
+    line-height: 30px;
     letter-spacing: normal;
     margin-block: 7px;
 }

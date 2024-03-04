@@ -27,14 +27,33 @@
     overflow: hidden;
     box-shadow: 0px 0px 0.3px black;
 }
-.search-bar input {
+#search-box{
    min-width: 80%;
-   border: 1px solid #ffffff7e;
    background-color:#fff;
    font-family: var(--body-font);
-   padding:6px 8px;
-   font-size: 1.1rem;
-   letter-spacing: 0.76px;
+}
+#search-box input{
+    border: 0.1px solid #ffffff7e;
+    padding:1px 2px;
+    width: 100%;
+    letter-spacing: 0.76px;
+    height: 100%;
+    font-size: 1.2rem;
+}
+#searchResult{
+    position: absolute;
+    top: 53px;
+    height: 150px;
+    overflow: auto;
+    
+}
+#searchResult p{
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: center;
+    min-width:318px;
+    padding-block: 4px;
+    border:0.001px solid black;
 }
 .search-logo{
     padding: 4px 8px;
@@ -78,8 +97,7 @@
     background-color: #fff;
 }
 .card:hover {
-    transform:scale(1.03)  skew(1deg);
-    transition: transform 0.3s ease-out;
+    width: 431px;
     box-shadow: 0px 0px 4px var(--perma-black);
 
 }
